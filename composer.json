@@ -1,5 +1,5 @@
 {
-    "name": "tebie6/yii2-wx",
+    "name": "tebie6/tebie6/yii2-weixin",
     "description": "一个专注于yii2的微信sdk 出自abei2017 在基础上添加 APP支付",
     "type": "yii2-extension",
     "keywords": ["yii2","extension","wechat"],
