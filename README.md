@@ -1,6 +1,3 @@
-# yii2-weixin
-基于 abei2017 开发
-
 > 为了更好的维护这个项目，避免多点分心。答疑和bug提交请在我的知识分享( [点击进入](http://nai8.me/forum/index.html?tag=108) )讨论页面提交，选择标签yii2-wx。
 
 <p align="center">
