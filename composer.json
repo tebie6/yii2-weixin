@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "abei2017\\wx\\": "src"
+            "tebie6\\yii2-weixin\\": "src"
         }
     }
 }
