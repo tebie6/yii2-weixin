@@ -9,19 +9,19 @@
  * with this source code in the file LICENSE.
  */
 
-namespace abei2017\wx\mp\kf;
+namespace tebie6\wx\mp\kf;
 
-use abei2017\wx\core\Driver;
-use abei2017\wx\core\AccessToken;
+use tebie6\wx\core\Driver;
+use tebie6\wx\core\AccessToken;
 use yii\httpclient\Client;
-use abei2017\wx\core\Exception;
+use tebie6\wx\core\Exception;
 
 /**
  * 客服助手
  *
  * @author abei<abei@nai8.me>
  * @link https://nai8.me/yii2wx
- * @package abei2017\wx\mp\kf
+ * @package tebie6\wx\mp\kf
  */
 class Kf extends Driver {
 
@@ -99,7 +99,7 @@ class Kf extends Driver {
      * @throws Exception
      */
     public function add($account,$nickname){
-        $this->httpClient->formatters = ['uncodeJson'=>'abei2017\wx\helpers\JsonFormatter'];
+        $this->httpClient->formatters = ['uncodeJson'=>'tebie6\wx\helpers\JsonFormatter'];
         $response = $this->post(self::API_ADD_KF_URL."?access_token={$this->accessToken}",['kf_account'=>$account,'nickname'=>$nickname])
             ->setFormat('uncodeJson')->send();
 
@@ -203,7 +203,7 @@ class Kf extends Driver {
      */
     public function update($account,$nickname){
 
-        $this->httpClient->formatters = ['uncodeJson'=>'abei2017\wx\helpers\JsonFormatter'];
+        $this->httpClient->formatters = ['uncodeJson'=>'tebie6\wx\helpers\JsonFormatter'];
         $response = $this->post(self::API_UPDATE_KF_URL."?access_token={$this->accessToken}", ['kf_account'=>$account, 'nickname'=>$nickname])
             ->setFormat('uncodeJson')
             ->send();

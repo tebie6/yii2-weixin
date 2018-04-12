@@ -9,17 +9,17 @@
  * with this source code in the file LICENSE.
  */
 
-namespace abei2017\wx\mp\core;
+namespace tebie6\wx\mp\core;
 
-use abei2017\wx\core\AccessToken;
-use abei2017\wx\core\Exception;
-use abei2017\wx\core\Driver;
+use tebie6\wx\core\AccessToken;
+use tebie6\wx\core\Exception;
+use tebie6\wx\core\Driver;
 
 /**
  * Base
  * 这里呈现一些基础的内容
  *
- * @package abei2017\wx\core
+ * @package tebie6\wx\core
  * @author abei<abei@nai8.me>
  * @link https://nai8.me/yii2wx
  */

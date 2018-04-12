@@ -8,19 +8,19 @@
  * with this source code in the file LICENSE.
  */
 
-namespace abei2017\wx\mini\qrcode;
+namespace tebie6\wx\mini\qrcode;
 
-use abei2017\wx\core\Driver;
+use tebie6\wx\core\Driver;
 use yii\httpclient\Client;
-use abei2017\wx\core\AccessToken;
-use abei2017\wx\core\Exception;
+use tebie6\wx\core\AccessToken;
+use tebie6\wx\core\Exception;
 
 /**
  * Qrcode
  * 二维码/小程序码
  * @author abei<abei@nai8.me>
  * @link https://nai8.me/yii2wx
- * @package abei2017\wx\mini\qrcode
+ * @package tebie6\wx\mini\qrcode
  */
 class Qrcode extends Driver {
 

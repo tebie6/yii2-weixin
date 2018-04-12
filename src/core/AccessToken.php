@@ -9,7 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace abei2017\wx\core;
+namespace tebie6\wx\core;
 
 use Yii;
 use yii\httpclient\Client;
@@ -19,7 +19,7 @@ use yii\httpclient\Client;
  * 获取微信AccessToken接口类
  *
  * @link http://nai8.me
- * @package abei2017\wx\core\accessToken
+ * @package tebie6\wx\core\accessToken
  * @author abei<abei@nai8.me>
  */
 class AccessToken extends Driver {
@@ -59,7 +59,7 @@ class AccessToken extends Driver {
      *
      * @return mixed
      * @author abei<abei@nai8.me>
-     * @throws \abei2017\wx\core\Exception
+     * @throws \tebie6\wx\core\Exception
      */
     public function getTokenFromServer(){
         $params = [

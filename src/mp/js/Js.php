@@ -9,14 +9,14 @@
  * with this source code in the file LICENSE.
  */
 
-namespace abei2017\wx\mp\js;
+namespace tebie6\wx\mp\js;
 
-use abei2017\wx\core\Driver;
+use tebie6\wx\core\Driver;
 use yii\helpers\Json;
 use yii\helpers\Url;
 use Yii;
 use yii\httpclient\Client;
-use abei2017\wx\core\AccessToken;
+use tebie6\wx\core\AccessToken;
 
 /**
  * Js
@@ -24,7 +24,7 @@ use abei2017\wx\core\AccessToken;
  *
  * @author abei<abei@nai8.me>
  * @link https://nai8.me/yii2wx
- * @package abei2017\wx\mp\js
+ * @package tebie6\wx\mp\js
  */
 class Js extends Driver {
 

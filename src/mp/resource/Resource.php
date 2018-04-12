@@ -8,11 +8,11 @@
  * with this source code in the file LICENSE.
  */
 
-namespace abei2017\wx\mp\resource;
+namespace tebie6\wx\mp\resource;
 
-use abei2017\wx\core\Driver;
-use abei2017\wx\core\AccessToken;
-use abei2017\wx\core\Exception;
+use tebie6\wx\core\Driver;
+use tebie6\wx\core\AccessToken;
+use tebie6\wx\core\Exception;
 use yii\helpers\Json;
 use yii\httpclient\Client;
 
@@ -20,7 +20,7 @@ use yii\httpclient\Client;
  * 素材助手
  * @author abei<abei@nai8.me>
  * @link https://nai8.me/yii2wx
- * @package abei2017\wx\mp\resource
+ * @package tebie6\wx\mp\resource
  */
 class Resource extends Driver {
 

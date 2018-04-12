@@ -9,12 +9,12 @@
  * with this source code in the file LICENSE.
  */
 
-namespace abei2017\wx\mp\encryptor;
+namespace tebie6\wx\mp\encryptor;
 
 use Yii;
-use abei2017\wx\core\Driver;
-use abei2017\wx\core\Exception;
-use abei2017\wx\helpers\Xml;
+use tebie6\wx\core\Driver;
+use tebie6\wx\core\Exception;
+use tebie6\wx\helpers\Xml;
 
 /**
  * Encryptor
@@ -22,7 +22,7 @@ use abei2017\wx\helpers\Xml;
  *
  * @author abei<abei@nai8.me>
  * @link https://nai8.me/yii2wx
- * @package abei2017\wx\mp\encryptor
+ * @package tebie6\wx\mp\encryptor
  */
 class Encryptor extends Driver {
 

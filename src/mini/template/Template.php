@@ -8,9 +8,9 @@
  * with this source code in the file LICENSE.
  */
 
-namespace abei2017\wx\mini\template;
+namespace tebie6\wx\mini\template;
 
-use abei2017\wx\core\Driver;
+use tebie6\wx\core\Driver;
 use Yii;
 use yii\httpclient\Client;
 
@@ -19,7 +19,7 @@ use yii\httpclient\Client;
  * 小程序模板消息
  * @author abei<abei@nai8.me>
  * @link https://nai8.me/yii2wx
- * @package abei2017\wx\mini\template
+ * @package tebie6\wx\mini\template
  */
 class Template extends Driver {
 

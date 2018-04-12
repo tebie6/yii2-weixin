@@ -9,14 +9,14 @@
  * with this source code in the file LICENSE.
  */
 
-namespace abei2017\wx\core;
+namespace tebie6\wx\core;
 
 use yii\base\Component;
 
 /**
  * 接口类
  * 该类主要抽象出每个接口类必须的几个属性
- * @package abei2017\wx\core
+ * @package tebie6\wx\core
  */
 class Driver extends Component {
 

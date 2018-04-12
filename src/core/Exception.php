@@ -8,7 +8,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace abei2017\wx\core;
+namespace tebie6\wx\core;
 
 /**
  * Exception

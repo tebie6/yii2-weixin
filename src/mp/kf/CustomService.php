@@ -9,12 +9,12 @@
  * with this source code in the file LICENSE.
  */
 
-namespace abei2017\wx\mp\kf;
+namespace tebie6\wx\mp\kf;
 
 use yii\httpclient\Client;
-use abei2017\wx\core\Driver;
-use abei2017\wx\core\AccessToken;
-use abei2017\wx\core\Exception;
+use tebie6\wx\core\Driver;
+use tebie6\wx\core\AccessToken;
+use tebie6\wx\core\Exception;
 
 /**
  * CustomService
@@ -22,7 +22,7 @@ use abei2017\wx\core\Exception;
  *
  * @author abei<abei@nai8.me>
  * @link https://nai8.me/yii2wx
- * @package abei2017\wx\mp\kf
+ * @package tebie6\wx\mp\kf
  */
 class CustomService extends Driver {
 
@@ -49,7 +49,7 @@ class CustomService extends Driver {
 
         $params = array_merge(['touser'=>$openId,'msgtype'=>$type],[$type=>$data],$extra);
 
-        $this->httpClient->formatters = ['uncodeJson'=>'abei2017\wx\helpers\JsonFormatter'];
+        $this->httpClient->formatters = ['uncodeJson'=>'tebie6\wx\helpers\JsonFormatter'];
         $response = $this->post(self::API_SEND_URL."?access_token={$this->accessToken}",$params)->setFormat('uncodeJson')->send();
 
         if($response->isOk == false){

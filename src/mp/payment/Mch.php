@@ -8,13 +8,13 @@
  * with this source code in the file LICENSE.
  */
 
-namespace abei2017\wx\mp\payment;
+namespace tebie6\wx\mp\payment;
 
-use abei2017\wx\core\Exception;
+use tebie6\wx\core\Exception;
 use Yii;
-use abei2017\wx\core\Driver;
+use tebie6\wx\core\Driver;
 use yii\httpclient\Client;
-use abei2017\wx\helpers\Util;
+use tebie6\wx\helpers\Util;
 
 /**
  * Mch
@@ -22,7 +22,7 @@ use abei2017\wx\helpers\Util;
  *
  * @author abei<abei@nai8.me>
  * @link http://nai8.me/yii2wx
- * @package abei2017\wx\mp\payment
+ * @package tebie6\wx\mp\payment
  */
 class Mch extends Driver {
 

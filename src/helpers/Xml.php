@@ -9,7 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace abei2017\wx\helpers;
+namespace tebie6\wx\helpers;
 
 use SimpleXMLElement;
 
@@ -19,7 +19,7 @@ use SimpleXMLElement;
  *
  * @author abei<abei@nai8.me>
  * @link https://nai8.me/yii2wx
- * @package abei2017\wx\helpers
+ * @package tebie6\wx\helpers
  */
 class Xml {
 

@@ -9,9 +9,9 @@
  * with this source code in the file LICENSE.
  */
 
-namespace abei2017\wx;
+namespace tebie6\wx;
 
-use abei2017\wx\core\Exception;
+use tebie6\wx\core\Exception;
 use Yii;
 use yii\base\Component;
 use yii\httpclient\Client;
@@ -22,7 +22,7 @@ use yii\httpclient\Client;
  *
  * @link https://nai8.me/yii2wx
  * @author abei<abei@nai8.me>
- * @package abei2017\wx
+ * @package tebie6\wx
  */
 class Application extends Component {
 
@@ -46,36 +46,36 @@ class Application extends Component {
         /**
          * 基础接口
          */
-        'core.accessToken'=>'abei2017\wx\core\AccessToken',// token
+        'core.accessToken'=>'tebie6\wx\core\AccessToken',// token
 
         /**
          * 公众号接口
          */
-        'mp.base'=>'abei2017\wx\mp\core\Base',    // 二维码
-        'mp.qrcode'=>'abei2017\wx\mp\qrcode\Qrcode',    // 二维码
-        'mp.shorturl'=>'abei2017\wx\mp\qrcode\Shorturl',    // 短地址
-        'mp.server'=>'abei2017\wx\mp\server\Server',    // 服务接口
-        'mp.remark'=>'abei2017\wx\mp\user\Remark',  //  会员备注
-        'mp.user'=>'abei2017\wx\mp\user\User',  //  会员管理
-        'mp.tag'=>'abei2017\wx\mp\user\Tag',    //  会员标签
-        'mp.menu'=>'abei2017\wx\mp\menu\Menu',  // 菜单
-        'mp.js'=>'abei2017\wx\mp\js\Js',    //  JS
-        'mp.template'=>'abei2017\wx\mp\template\Template', //   消息模板
-        'mp.pay'=>'abei2017\wx\mp\payment\Pay',//  支付接口
-        'mp.mch'=>'abei2017\wx\mp\payment\Mch',//  企业付款
-        'mp.redbag'=>'abei2017\wx\mp\payment\Redbag',//  红包
-        'mp.oauth'=>'abei2017\wx\mp\oauth\OAuth',//  web授权
-        'mp.resource'=>'abei2017\wx\mp\resource\Resource',//  素材
-        'mp.kf'=>'abei2017\wx\mp\kf\Kf',//  客服
-        'mp.customService'=>'abei2017\wx\mp\kf\CustomService',//  群发
+        'mp.base'=>'tebie6\wx\mp\core\Base',    // 二维码
+        'mp.qrcode'=>'tebie6\wx\mp\qrcode\Qrcode',    // 二维码
+        'mp.shorturl'=>'tebie6\wx\mp\qrcode\Shorturl',    // 短地址
+        'mp.server'=>'tebie6\wx\mp\server\Server',    // 服务接口
+        'mp.remark'=>'tebie6\wx\mp\user\Remark',  //  会员备注
+        'mp.user'=>'tebie6\wx\mp\user\User',  //  会员管理
+        'mp.tag'=>'tebie6\wx\mp\user\Tag',    //  会员标签
+        'mp.menu'=>'tebie6\wx\mp\menu\Menu',  // 菜单
+        'mp.js'=>'tebie6\wx\mp\js\Js',    //  JS
+        'mp.template'=>'tebie6\wx\mp\template\Template', //   消息模板
+        'mp.pay'=>'tebie6\wx\mp\payment\Pay',//  支付接口
+        'mp.mch'=>'tebie6\wx\mp\payment\Mch',//  企业付款
+        'mp.redbag'=>'tebie6\wx\mp\payment\Redbag',//  红包
+        'mp.oauth'=>'tebie6\wx\mp\oauth\OAuth',//  web授权
+        'mp.resource'=>'tebie6\wx\mp\resource\Resource',//  素材
+        'mp.kf'=>'tebie6\wx\mp\kf\Kf',//  客服
+        'mp.customService'=>'tebie6\wx\mp\kf\CustomService',//  群发
 
         /**
          * 微信小程序接口
          */
-        'mini.user'=>'abei2017\wx\mini\user\User', // 会员
-        'mini.pay'=>'abei2017\wx\mini\payment\Pay', // 支付
-        'mini.qrcode'=>'abei2017\wx\mini\qrcode\Qrcode', // 二维码&小程序码
-        'mini.template'=>'abei2017\wx\mini\template\Template', // 模板消息
+        'mini.user'=>'tebie6\wx\mini\user\User', // 会员
+        'mini.pay'=>'tebie6\wx\mini\payment\Pay', // 支付
+        'mini.qrcode'=>'tebie6\wx\mini\qrcode\Qrcode', // 二维码&小程序码
+        'mini.template'=>'tebie6\wx\mini\template\Template', // 模板消息
     ];
 
     public function init(){

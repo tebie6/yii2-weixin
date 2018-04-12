@@ -8,18 +8,18 @@
  * with this source code in the file LICENSE.
  */
 
-namespace abei2017\wx\mp\server;
+namespace tebie6\wx\mp\server;
 
-use abei2017\wx\helpers\Xml;
+use tebie6\wx\helpers\Xml;
 use Yii;
-use abei2017\wx\core\Driver;
+use tebie6\wx\core\Driver;
 use yii\base\Exception;
-use abei2017\wx\mp\message\Text;
-use abei2017\wx\mp\encryptor\Encryptor;
+use tebie6\wx\mp\message\Text;
+use tebie6\wx\mp\encryptor\Encryptor;
 
 /**
  * 服务器类
- * @package abei2017\wx\server
+ * @package tebie6\wx\server
  * @author abei<abei@nai8.me>
  * @link https://nai8.me/yii2wx
  */

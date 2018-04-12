@@ -9,12 +9,12 @@
  * with this source code in the file LICENSE.
  */
 
-namespace abei2017\wx\mp\menu;
+namespace tebie6\wx\mp\menu;
 
-use abei2017\wx\core\Driver;
-use abei2017\wx\core\AccessToken;
+use tebie6\wx\core\Driver;
+use tebie6\wx\core\AccessToken;
 use yii\httpclient\Client;
-use abei2017\wx\core\Exception;
+use tebie6\wx\core\Exception;
 
 /**
  * Menu
@@ -22,7 +22,7 @@ use abei2017\wx\core\Exception;
  *
  * @author abei<abei@nai8.me>
  * @link https://nai8.me/yii2wx
- * @package abei2017\wx\mp\menu
+ * @package tebie6\wx\mp\menu
  */
 class Menu extends Driver {
 

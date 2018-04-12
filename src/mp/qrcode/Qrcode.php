@@ -8,16 +8,16 @@
  * with this source code in the file LICENSE.
  */
 
-namespace abei2017\wx\mp\qrcode;
+namespace tebie6\wx\mp\qrcode;
 
-use abei2017\wx\core\Driver;
-use abei2017\wx\core\AccessToken;
+use tebie6\wx\core\Driver;
+use tebie6\wx\core\AccessToken;
 use yii\httpclient\Client;
 
 /**
  * Qrcode
  * 二维码生成接口
- * @package abei2017\wx\mp\qrcode
+ * @package tebie6\wx\mp\qrcode
  * @link https://nai8.me/yii2wx
  * @author abei<abei@nai8.me>
  */

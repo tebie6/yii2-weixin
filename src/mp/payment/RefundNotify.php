@@ -8,15 +8,15 @@
  * with this source code in the file LICENSE.
  */
 
-namespace abei2017\wx\mp\payment;
+namespace tebie6\wx\mp\payment;
 
 use Yii;
 use yii\base\Component;
-use abei2017\wx\helpers\Xml;
+use tebie6\wx\helpers\Xml;
 
 /**
  * RefundNotify
- * @package abei2017\wx\mp\payment
+ * @package tebie6\wx\mp\payment
  * @author abei<abei@nai8.me>
  * @link https://nai8.me/yii2wx
  */

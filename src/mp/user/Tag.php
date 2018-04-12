@@ -8,11 +8,11 @@
  * with this source code in the file LICENSE.
  */
 
-namespace abei2017\wx\mp\user;
+namespace tebie6\wx\mp\user;
 
-use abei2017\wx\core\Driver;
-use abei2017\wx\core\AccessToken;
-use abei2017\wx\core\Exception;
+use tebie6\wx\core\Driver;
+use tebie6\wx\core\AccessToken;
+use tebie6\wx\core\Exception;
 use yii\httpclient\Client;
 
 /**
@@ -21,7 +21,7 @@ use yii\httpclient\Client;
  * 开发者可以使用用户标签管理的相关接口，实现对公众号的标签进行创建、查询、修改、删除等操作，也可以对用户进行打标签、取消标签等操作。
  * @link https://mp.weixin.qq.com/wiki?t=resource/res_main&id=mp1421140837
  * @author abei<abei@nai8.me>
- * @package abei2017\wx\mp\user
+ * @package tebie6\wx\mp\user
  */
 class Tag extends Driver {
 
@@ -99,7 +99,7 @@ class Tag extends Driver {
      * @throws Exception
      */
     public function create($tag){
-        $this->httpClient->formatters = ['uncodeJson'=>'abei2017\wx\helpers\JsonFormatter'];
+        $this->httpClient->formatters = ['uncodeJson'=>'tebie6\wx\helpers\JsonFormatter'];
         $response = $this->post(self::API_CREATE_URL."?access_token={$this->accessToken}",['tag'=>['name'=>$tag]])
             ->setFormat('uncodeJson')->send();
 
@@ -130,7 +130,7 @@ class Tag extends Driver {
      * @throws Exception
      */
     public function update($tagId,$newName){
-        $this->httpClient->formatters = ['uncodeJson'=>'abei2017\wx\helpers\JsonFormatter'];
+        $this->httpClient->formatters = ['uncodeJson'=>'tebie6\wx\helpers\JsonFormatter'];
         $response = $this->post(self::API_UPDATE_URL."?access_token={$this->accessToken}",[
             'tag'=>['id'=>$tagId,'name'=>$newName]
         ])->setFormat('uncodeJson')->send();

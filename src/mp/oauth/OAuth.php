@@ -8,17 +8,17 @@
  * with this source code in the file LICENSE.
  */
 
-namespace abei2017\wx\mp\oauth;
+namespace tebie6\wx\mp\oauth;
 
-use abei2017\wx\core\Driver;
+use tebie6\wx\core\Driver;
 use Yii;
 use yii\httpclient\Client;
-use abei2017\wx\core\Exception;
+use tebie6\wx\core\Exception;
 
 /**
  * web网页授权
  *
- * @package abei2017\wx\mp\oauth
+ * @package tebie6\wx\mp\oauth
  * @author abei<abei@nai8.me>
  * @link http://nai8.me/yii2wx
  */
