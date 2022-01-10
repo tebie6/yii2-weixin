@@ -43,9 +43,9 @@ class Js extends Driver {
      * @param boolean $debug 是否启动调试模式
      * @return mixed
      */
-    public function buildConfig($apis = [],$debug = false){
+    public function buildConfig($apis = [],$debug = false,$url=NULL){
 
-        $signPackage = $this->signature();
+        $signPackage = $this->signature($url);
         $config = array_merge(['debug'=>$debug],$signPackage,['jsApiList'=>$apis]);
 
         return Json::encode($config);
@@ -57,9 +57,10 @@ class Js extends Driver {
      *
      * @return array
      */
-    public function signature(){
-
-        $url = Url::current([],true);
+    public function signature($url=NULL){
+        if ($url === NULL) {
+            $url = Url::current([],true);
+        }
         $nonce = Yii::$app->security->generateRandomString(32);
         $timestamp = time();
         $ticket = $this->ticket();
